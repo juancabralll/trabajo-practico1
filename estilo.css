@@ -43,3 +43,58 @@ body {
     border: #000000 solid 5px;
     border-radius: 0px 0px 10px 0px;
 }
+
+.conocer{ 
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+a{
+    color: #000000;
+align-items: center;
+}
+
+li {
+    display: flex;
+    list-style-position: inside;
+    margin: 15px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.verequipamiento{
+    border: #3c3c3c solid 5px;
+    background-color: #ffffff;
+}
+
+.visitar{
+    border: #3c3c3c solid 5px;
+    background-color: #ffffff;
+}
+
+.informacion{
+    border: #3c3c3c solid 5px;
+    background-color: #ffffff;
+
+}
+
+.viaje {
+    text-align: center;
+    width: 100%;
+}
+
+.viaje h1{
+    text-decoration: underline;
+}
+
+.eleccion {
+    text-align: center;
+    width: 100%;
+}
+
+.eleccion h1{
+    text-decoration: underline;
+}
