@@ -1,3 +1,12 @@
+.volver {
+    background-color: rgb(235, 122, 81);
+    position: absolute;
+    border-radius: 0px 0px 10px 0px;
+    top: 0px;
+    left: 0px;
+}
+
+
 body {
     background-color: #3c3c3c;
     display: flex;
@@ -12,4 +21,44 @@ body {
     display: flex;
     flex-direction: column;
     padding: 15px;
+}
+
+.lugar {
+    display: flex;
+    margin: 20px;
+    width: 90%;
+}
+
+.titulo{
+    width: 15%;
+    background-color: rgba(235, 122, 81, 0.53);
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descripcion{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    text-wrap: wrap;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.foto-contenedor{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img{
+    width: 260px;
+    height: 200px;
+}
+h4{
+    text-align: center;
 }
